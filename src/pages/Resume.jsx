@@ -28,7 +28,7 @@ export default function Resume() {
         <div style={{textAlign: "left", marginTop: "3rem", fontSize: "20px"}}>
             <h3 style={{textAlign: "left", fontSize: "25px", fontWeight: "200",}}>Technical Skills</h3>
             <ul style={{fontSize: "19px", padding: "1rem", marginTop: "-2rem"}}>
-                <li><strong>Languages:</strong> Python, Bash, Powershell, ReactJS</li>
+                <li><strong>Languages:</strong> Python, Bash, Powershell, JavaScript JSX</li>
                 <li><strong>Operating Systems:</strong> Windows, Kali Linux, MacOS</li>
                 <li><strong>Networking & Protocols:</strong> DNS, TCP/IP, VLAN, VPN </li>
                 <li><strong>Security Tools:</strong> Metasploit, Nmap, Wireshark, Splunk</li>
