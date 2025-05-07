@@ -14,7 +14,7 @@ export default function Home() {
                         margin: "0 1rem",
                         color: "#0072b1",
                         textDecoration: "none",
-                        fontSize: "1.1rem",
+                        fontSize: "1.3rem",
                     }}
                 >
                     Github
@@ -27,7 +27,7 @@ export default function Home() {
                         margin:"0 1rem",
                         color: "#0072b1",
                         textDecoration: "none",
-                        fontSize: "1.1rem",
+                        fontSize: "1.3rem",
                     }}
                 >
                     Linkedin
