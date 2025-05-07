@@ -5,6 +5,11 @@ export default function Home() {
         <div style={{textAlign: "center"}}>
             <h1>Yannos Papaevangelou's Professional Portfolio</h1>
             <img src={Headshot} alt="Yannos Papaevangelou Headshot" style={{width: "200px", height: "200px", objectFit: "cover"}} />
+            <div style= {{marginTop: "1rem", fontSize: "1.2rem"}}>
+                <div>Potomac, MD</div>
+                <div><a href="mailto:nospapa57@gmail.com">nospapa57@gmail.com</a></div>
+                <div>240-543-2830</div>
+            </div>
             <div style={{marginTop: "1rem"}}>
                 <a
                     href="https://github.com/Yankbot"
