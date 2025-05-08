@@ -2,27 +2,26 @@ export default function Projects() {
     const projectList = [
       {
         title:"Pen-Testing Lab",
-        description: "Created a secure, isolated pen-testing environment using Kali Linux and Metasploitable in VirtualBox. The VM's have been configured with static IP's to allow for controlled experiments. Examples include scanning the target with Nmap, taking advantage of misconfigured TCP ports 512-514, and gaining root access through 'rlogin'. Another method used is generating an SSH key, mounting it to the NFS export and adding it to the root 'authorized_keys' file.",
-        tech: "Nmap, msfconsole, Netcat, SSH, TCP/IP",
+        description: "Created a secure, isolated penetration testing environment using Kali Linux and Metasploitable on VirtualBox. Configured with static IP's to allow for controlled experiments and vulnerability assessments.",
+        tech: "Kali Linux, Metasploit (msfconsole), Bash, TCP/IP",
       },
       {
         title: "Reverse Shell",
-        description: "Developed a reverse shell in Python using os.dup2 for remote command execution via TCP. This creates a persistent back door, where the reverse shell automatically spawns on the attacking machine upon target boot up.",
-        tech: "Python, Bash, TCP, os.dup2",
+        description: "Developed a Python-based reverse shell using os.dup2 for remote command execution over TCP. Designed to establish a persistent back door that activates automatically on target boot.",
       },
       {
         title: "Port Scanner",
-        description: "Built a port scanner in Python that scans and logs open TCP ports. The results of each scan are automatically saved to a 'scan_reports' directory along with their timestamps.",
+        description: "Built an automated Python script to scan and log open TCP ports. Each scan result is timestamped and saved to a dedicated scan_reports directory.",
         tech: "Python, Automation, Port Scanning, Socket Library",
       },
       {
         title: "Adversary Emulation",
-        description: "Simulated network attacks on port 6667 exploiting the UnrealIRCD IRC daemon on Metasploitable2, as well as exploiting the 'ingreslock' backdoor listening on port 1524.",
+        description: "Executed Nmap scans, and exploited misconfigured TCP ports (512-514) to gain root access via 'rlogin'. Also leveraged NFS exports to inject SSH keys into the root 'authorized_keys' file. Simulated attacks on UnrealIRCD (port 6667) and the ingreslock backdoor (port 1524) in Metasploitable2.",
         tech: "Nmap, TCP/IP, Remote Code Execution (RCE)",
       },
       {
         title: "Professional Portfolio",
-        description: "Developed a professional portfolio from scratch using JavaScript's React library. This portfolio highlights aspirations, technical skills, work experience, and more about my interests beyond my work life.",
+        description: "Designed and developed a responsive portfolio website using React to showcase skills, projects, and career goals. Includes personal insights, technical experience, and live project examples.",
         tech: "JavaScript, React, HTML, CSS, Git/GitHub",
       },
     ];
@@ -34,9 +33,9 @@ export default function Projects() {
       <ul style={{listStyleType: "none", paddingLeft: "0"}}>
         {projectList.map((project, index) => (
           <li key={index} style={{marginBottom: "20px"}}>
-            <h2 style={{fontSize: "20px",color: "#800020"}}>{project.title}</h2>
-            <p style={{fontSize: "20px"}}>{project.description}</p>
-            <p style={{fontSize: "20px"}}><strong>Tech Stack:</strong> {project.tech}</p>
+            <h2 style={{fontSize: "22px",color: "#800020"}}>{project.title}</h2>
+            <p style={{fontSize: "18px"}}>{project.description}</p>
+            <p style={{fontSize: "18px"}}><strong>Tech Stack:</strong> {project.tech}</p>
           </li>
         ))}
       </ul>
