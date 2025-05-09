@@ -13,7 +13,7 @@ export default function Projects() {
       {
         title: "Port Scanner",
         description: "Built an automated Python script to scan and log open TCP ports. Each scan result is timestamped and saved to a dedicated 'scan_reports' directory.",
-        tech: "Python, Automation, Port Scanning, Socket Library",
+        tech: "Python, Sockets, Automation, Port Scanning",
       },
       {
         title: "Adversary Emulation",
