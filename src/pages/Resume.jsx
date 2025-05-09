@@ -19,9 +19,9 @@ export default function Resume() {
         >
             Download Yannos' Resume
         </a>
-        <div style={{textAlign: "center", fontSize: "20px"}}>
+        <div style={{textAlign: "center", fontSize: "18px"}}>
             <h2 style={{fontWeight: 200}}> Professional Overview</h2>
-            <p style={{maxWidth: "700px", margin: "0 auto", fontWeight: 300, fontSize: "19px"}}>
+            <p style={{maxWidth: "700px", margin: "0 auto", fontWeight: 300, fontSize: "19px", marginTop: "-.5rem"}}>
              Aspiring Red Team cybersecurity professional with hands-on lab experience and real-world exposure supporting a scientific federal environment. Eager to secure a technical role or internship in penetration testing, adversary emulation, or threat detection. I actively develop tools, simulate attacks, and analyze network behavior in a personal lab environment to deepen offensive security skills. Passionate about contributing to a high-performing cybersecurity team that challenges me, sharpens my expertise, and pushes my technical limits—especially in exploit development.
             </p>
         </div>
