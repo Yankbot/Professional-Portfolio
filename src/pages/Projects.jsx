@@ -8,15 +8,16 @@ export default function Projects() {
       {
         title: "Reverse Shell",
         description: "Developed a Python-based reverse shell using os.dup2 for remote command execution over TCP. Designed to establish a persistent back door that activates automatically on target boot.",
+        tech:  "Python, Bash, TCP, os.dup2"
       },
       {
         title: "Port Scanner",
-        description: "Built an automated Python script to scan and log open TCP ports. Each scan result is timestamped and saved to a dedicated scan_reports directory.",
+        description: "Built an automated Python script to scan and log open TCP ports. Each scan result is timestamped and saved to a dedicated 'scan_reports' directory.",
         tech: "Python, Automation, Port Scanning, Socket Library",
       },
       {
         title: "Adversary Emulation",
-        description: "Executed Nmap scans, and exploited misconfigured TCP ports (512-514) to gain root access via 'rlogin'. Also leveraged NFS exports to inject SSH keys into the root 'authorized_keys' file. Simulated attacks on UnrealIRCD (port 6667) and the ingreslock backdoor (port 1524) in Metasploitable2.",
+        description: "Executed Nmap scans, and exploited misconfigured TCP ports (512-514) to gain root access via 'rlogin'. Also leveraged NFS exports to inject SSH keys into the root 'authorized_keys' file. Simulated attacks on UnrealIRCD (port 6667) and the ingreslock backdoor (port 1524) on Metasploitable2.",
         tech: "Nmap, TCP/IP, Remote Code Execution (RCE)",
       },
       {
@@ -33,7 +34,7 @@ export default function Projects() {
       <ul style={{listStyleType: "none", paddingLeft: "0"}}>
         {projectList.map((project, index) => (
           <li key={index} style={{marginBottom: "20px"}}>
-            <h2 style={{fontSize: "22px",color: "#800020"}}>{project.title}</h2>
+            <h2 style={{fontSize: "22px", fontWeight: "200", color: "#800020"}}>{project.title}</h2>
             <p style={{fontSize: "18px"}}>{project.description}</p>
             <p style={{fontSize: "18px"}}><strong>Tech Stack:</strong> {project.tech}</p>
           </li>
