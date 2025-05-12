@@ -30,7 +30,7 @@ export default function Projects() {
 
   return (
     <div style={{padding: "20px", fontFamily: "Arial, sans-serif"}}>
-      <h1 style={{textAlign: "center", marginBottom: "20px"}}>Projects</h1>
+      <h1 style={{textAlign: "center", marginBottom: "20px", padding:"0rem", fontSize: "25px"}}>Projects</h1>
       <ul style={{listStyleType: "none", paddingLeft: "0"}}>
         {projectList.map((project, index) => (
           <li key={index} style={{marginBottom: "20px"}}>

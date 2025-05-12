@@ -1,6 +1,6 @@
 export default function Resume() {
     return (
-    <div style={{textAlign: "center", padding: "2rem"}}>
+    <div style={{textAlign: "center", padding: ".5rem"}}>
         <h1>Resume</h1>
         <a
             href="/resume.pdf"
@@ -32,10 +32,33 @@ export default function Resume() {
                 <li><strong>Operating Systems:</strong> Windows, Kali Linux, macOS</li>
                 <li><strong>Networking & Protocols:</strong> DNS, TCP/IP, VLANs, VPNs </li>
                 <li><strong>Security Tools:</strong> Metasploit, Nmap, Wireshark, Splunk</li>
-                <li><strong>Security Concepts:</strong> Identiy & Access Management (IAM), Vulnerability Management, Log Analysis, SIEM</li>
+                <li><strong>Security Concepts:</strong> Identity & Access Management (IAM), Vulnerability Management, Log Analysis, SIEM</li>
             </ul>
         </div>
-        
+        <div style={{textAlign:"left", marginTop: "3rem"}}>
+            <h3 style={{textAlign: "left", fontSize: "25px", fontWeight: "200",}}>Professional Experience</h3>
+            <div style={{marginBottom: "2rem"}}>
+                <h4 style={{fontSize: "20px", marginBottom: "0.2rem"}}>
+                    IT Technician (Contractor) – National Institutes of Health (NIMH & NIDDK)</h4>
+                    <p style={{fontSize:"20px", fontStyle: "italic", marginTop: "0", marginBottom: "0.5rem" }}>June 2024 – Present</p>
+            <ul style={{fontSize: "18px", paddingLeft: "1.5rem"}}>
+                <li>Monitoring and troubleshooting endpoint network connectivity, managing user access and permissions via Active Directory, and ensuring compliance with internal security policies.</li>
+                <li>Implementing endpoint security measures using Group Policy, improving compliance across 500+ systems.</li>
+                <li>Resolving 25+ incidents weekly in alignment with SLAs to maintain system availability and support vulnerability management.</li>
+                <li>Troubleshooting certificate authentication issues with Kerberos and Microsoft products.</li>
+            </ul>
+        </div>
+        <div>
+            <h4 style={{ fontSize: "20px", marginBottom: "0.2rem" }}>Desktop Support Specialist (Contractor) – Telaforce LLC</h4>
+            <p style={{fontSize:"20px", fontStyle: "italic", marginTop: "0", marginBottom: "0.5rem" }}>June 2022 – March 2023</p>
+            <ul style={{ paddingLeft: "1.5rem", fontSize: "18px" }}>
+                <li>Diagnosed and resolved hardware and firmware issues across multiple county departments, ensuring consistent endpoint performance.</li>
+                <li>Upgraded BitLocker encryption from AES 128-bit to 256-bit to enhance data protection.</li>
+                <li>Conducted software patching and system updates to support vulnerability mitigation and compliance.</li>
+                <li>Trained end users on security best practices and system functionality.</li>
+        </ul>
+        </div>
+    </div>
     </div>
     );
 }
