@@ -22,7 +22,7 @@ export default function Projects() {
       },
       {
         title: "Professional Portfolio",
-        description: "Designed and developed a responsive portfolio website using React to showcase skills, projects, and career goals. Includes personal insights, technical experience, and live project examples.",
+        description: "Designed and developed a responsive portfolio website using React to showcase skills, projects, and career goals. Includes personal insights, technical experience, and live project examples. Deployed using GitHub Pages.",
         tech: "JavaScript, React, HTML, CSS, Git/GitHub",
       },
     ];
