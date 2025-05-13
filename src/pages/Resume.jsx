@@ -3,8 +3,8 @@ export default function Resume() {
     <div style={{textAlign: "center", padding: ".5rem"}}>
         <h1>Resume</h1>
         <a
-            href="/public/resume.pdf"
-            download
+            href="/resume.pdf" 
+            download="Yannos_Resume.pdf"
             style={{
                 display: "inline-block",
                 padding: "0.75rem 1.5rem",
