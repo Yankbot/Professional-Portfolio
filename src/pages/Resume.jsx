@@ -3,7 +3,7 @@ export default function Resume() {
     <div style={{textAlign: "center", padding: ".5rem"}}>
         <h1>Resume</h1>
         <a
-            href={`${process.env.PUBLIC_URL}/resume.pdf`}
+            href="/Professional-Portfolio/resume.pdf"
             download="Yannos_Resume.pdf"
             style={{
                 display: "inline-block",
