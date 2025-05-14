@@ -22,7 +22,7 @@ export default function Resume() {
         <div style={{textAlign: "center", fontSize: "18px"}}>
             <h2 style={{fontWeight: 200}}> Professional Overview</h2>
             <p style={{maxWidth: "700px", margin: "0 auto", fontWeight: 300, fontSize: "19px", marginTop: "-.5rem"}}>
-             Aspiring Red Team cybersecurity professional with hands-on lab experience and real-world exposure supporting a scientific federal environment. Eager to secure a technical role or internship in penetration testing, adversary emulation, or threat detection. Yannos actively develops tools, simulates attacks, and analyzes network behavior in a personal lab environment to deepen offensive security skills. Passionate about contributing to a high-performing cybersecurity team that challenges, sharpens expertise, and pushes technical limits—especially in exploit development.
+             Yannos is an aspiring Red Team cybersecurity professional with hands-on lab experience and real-world exposure supporting a scientific federal environment. Eager to secure a technical role or internship in penetration testing, adversary emulation, or threat detection. Yannos actively develops tools, simulates attacks, and analyzes network behavior in a personal lab environment to deepen offensive security skills. Passionate about contributing to a high-performing cybersecurity team that challenges, sharpens expertise, and pushes technical limits—especially in exploit development.
             </p>
         </div>
         <div style={{textAlign: "left", marginTop: "3rem", fontSize: "20px"}}>
@@ -45,7 +45,7 @@ export default function Resume() {
                 <li>Monitoring and troubleshooting endpoint network connectivity, managing user access and permissions via Active Directory, and ensuring compliance with internal security policies.</li>
                 <li>Implementing endpoint security measures using Group Policy, improving compliance across 500+ systems.</li>
                 <li>Resolving 25+ incidents weekly in alignment with SLAs to maintain system availability and support vulnerability management.</li>
-                <li>Troubleshooting certificate authentication issues with Kerberos and Microsoft products.</li>
+                <li>Troubleshooting certificate authentication issues with Kerberos, VPN, internal sites, and Microsoft products.</li>
             </ul>
         </div>
         <div>
