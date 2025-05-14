@@ -3,7 +3,18 @@ export default function AboutMe() {
     <div>
         <h1 style={{padding: ".5rem"}}>About Me</h1>
         <div style={{textAlign: "center", fontSize: "22px", padding: "0rem", maxWidth: "1900px", lineHeight: "2"}}>
-            <p> Yannos Papaevangelou is an ambitious cybersecurity enthusiast with keen interests in Red Teaming, exploit developement, and technical knowledge in many aspects of IT and Security. Yannos is currently a student at the University of Maryland Global Campus, expecting to receive his B.S. in Cyber Operations by the end of 2026. Additionally, Yannos works full time as an IT Technician for the National Institute of Mental Health where he supports a large variety of staff and systems, and contributes to their research operations by troubleshooting many different issues and ensuring compliance among all systems. Yannos enjoys activities such as soccer and weight lifting, as well as working on expanding his skillset through personal projects and research outside of his daily work responsibilities. He holds an Associate of Applied Science (A.A.S) in Cybersecurity and the Splunk Core Certified User certification. As of April 2025, he is actively preparing for the CompTIA Security+ SY0-701 certification, which he plans to complete in June 2025. Yannos aims to secure an internship or full-time position that offers mentorship, challenging projects, and opportunities to deepen his expertise in Red Teaming and cybersecurity operations. </p>
+           <p>
+          I'm an ambitious cybersecurity enthusiast with a focus on Red Teaming, exploit development, and deep technical knowledge across IT and Security. I'm currently pursuing my B.S. in Cyber Operations at the University of Maryland Global Campus, expecting to graduate by the end of 2026.
+        </p>
+        <p>
+          Professionally, I work full-time as an IT Technician for the National Institute of Mental Health. In this role, I support a wide variety of systems and staff, contributing to vital research operations by ensuring technical issues are resolved and systems remain compliant.
+        </p>
+        <p>
+          Outside of work, I enjoy playing soccer, weightlifting, and diving into personal research and projects that expand my technical skillset. I currently hold an A.A.S. in Cybersecurity and the Splunk Core Certified User certification. I'm also actively preparing for the CompTIA Security+ (SY0-701), which I plan to complete in June 2025.
+        </p>
+        <p>
+          I'm seeking an internship or full-time position that provides mentorship, challenges me technically, and allows me to grow in the field of Red Teaming and cybersecurity operations.
+        </p>
         </div>
     </div>
     );
