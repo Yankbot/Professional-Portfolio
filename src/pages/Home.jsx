@@ -8,7 +8,6 @@ export default function Home() {
             <div style= {{marginTop: "1rem", fontSize: "1.5rem"}}>
                 <div>Potomac, MD</div>
                 <div><a href="mailto:nospapa57@gmail.com">nospapa57@gmail.com</a></div>
-                <div>240-543-2830</div>
             </div>
             <div style={{marginTop: "1rem"}}>
                 <a
