@@ -40,7 +40,7 @@ export default function Home() {
         <div style={{marginTop: "20px", textAlign: "center", padding: "0 10px"}}>
             <h1>Education:</h1>
               <div style={{fontSize: "23px"}}>
-                <div>B.S. in Cyber Operations, University of Maryland Global Campus (Expected 2026)</div>
+                <div>B.S. in Cyber Operations, University of Maryland Global Campus (Expected 2026) GPA: 4.0</div>
                 <div style={{display: "flex", justifyContent: "space-between", maxWidth: "600px", margin: "0 auto" }}>
                     <span>A.A.S. in Cybersecurity, Montgomery College (2024)</span>
                     <span style={{ whiteSpace: "nowrap" }}>GPA: 3.4</span>
@@ -51,7 +51,7 @@ export default function Home() {
                 <h1>Certifications:</h1>
                 <div style={{ fontSize: "23px" }}>
                     <div>Splunk Core Certified User</div>
-                    <div>CompTIA Security+ (Expected June 2025)</div>
+                    <div>CompTIA Security+ (Expected 2025)</div>
                     </div>
                 <div/>
             </div>
