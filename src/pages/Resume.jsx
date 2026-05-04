@@ -3,7 +3,7 @@ export default function Resume() {
     <div style={{textAlign: "center", padding: ".5rem"}}>
         <h1>Resume</h1>
         <a
-            href="/Professional-Portfolio/resume.pdf"
+            href="/Professional-Portfolio/Yannos_Papaevangelou_Resume.pdf"
             download="Yannos_Resume.pdf"
             style={{
                 display: "inline-block",
@@ -22,13 +22,13 @@ export default function Resume() {
         <div style={{textAlign: "center", fontSize: "18px"}}>
             <h2 style={{fontWeight: 200}}> Professional Overview</h2>
             <p style={{maxWidth: "700px", margin: "0 auto", fontWeight: 300, fontSize: "19px", marginTop: "-.5rem"}}>
-             Yannos is an aspiring Red Team cybersecurity professional with hands-on lab experience and real-world exposure supporting a scientific federal environment. Eager to secure a technical role or internship in penetration testing, adversary emulation, or threat detection. Yannos actively develops tools, simulates attacks, and analyzes network behavior in a personal lab environment to deepen offensive security skills. Passionate about contributing to a high-performing cybersecurity team that challenges, sharpens expertise, and pushes technical limits—especially in exploit development.
+             Yannos is an aspiring Red Team cybersecurity professional with hands-on lab experience and real  world exposure supporting a scientific federal environment. Eager to secure a technical role or internship in penetration testing, red teaming, or threat detection. Yannos actively develops tools, simulates attacks, and analyzes network behavior in a personal lab environment to deepen offensive security skills. Passionate about contributing to a high-performing cybersecurity team that challenges, sharpens expertise, and pushes technical limits, especially in exploit development.
             </p>
         </div>
         <div style={{textAlign: "left", marginTop: "3rem", fontSize: "20px"}}>
             <h3 style={{textAlign: "left", fontSize: "25px", fontWeight: "200",}}>Technical Skills</h3>
             <ul style={{fontSize: "19px", padding: "1rem", marginTop: "-2rem"}}>
-                <li><strong>Languages:</strong> Python, Bash, PowerShell, JavaScript (JSX)</li>
+                <li><strong>Languages:</strong> Python, Bash, PowerShell, JavaScript (JSX), Java</li>
                 <li><strong>Operating Systems:</strong> Windows, Kali Linux, macOS</li>
                 <li><strong>Networking & Protocols:</strong> DNS, TCP/IP, VLANs, VPNs </li>
                 <li><strong>Security Tools:</strong> Metasploit, Nmap, Wireshark, Splunk</li>
@@ -39,12 +39,12 @@ export default function Resume() {
             <h3 style={{textAlign: "left", fontSize: "25px", fontWeight: "200",}}>Professional Experience</h3>
             <div style={{marginBottom: "2rem"}}>
                 <h4 style={{fontSize: "20px", marginBottom: "0.2rem"}}>
-                    IT Technician (Contractor) – National Institutes of Health (NIMH & NIDDK)</h4>
-                    <p style={{fontSize:"20px", fontStyle: "italic", marginTop: "0", marginBottom: "0.5rem" }}>June 2024 – Present</p>
+                    IT Technician (Contractor) – National Institutes of Health (NIMH, NIDDK, NCI)</h4>
+                    <p style={{fontSize:"20px", fontStyle: "italic", marginTop: "0", marginBottom: "0.5rem" }}>June 2024 – August 2025</p>
             <ul style={{fontSize: "18px", paddingLeft: "1.5rem"}}>
                 <li>Monitoring and troubleshooting endpoint network connectivity, managing user access and permissions via Active Directory, and ensuring compliance with internal security policies.</li>
                 <li>Implementing endpoint security measures using Group Policy, improving compliance across 500+ systems.</li>
-                <li>Resolving 25+ incidents weekly in alignment with SLAs to maintain system availability and support vulnerability management.</li>
+                <li>Resolving 50+ incidents weekly in alignment with SLAs to maintain system availability and support vulnerability management.</li>
                 <li>Troubleshooting certificate authentication issues with Kerberos, VPN, internal sites, and Microsoft products.</li>
             </ul>
         </div>

@@ -51,7 +51,6 @@ export default function Home() {
                 <h1>Certifications:</h1>
                 <div style={{ fontSize: "23px" }}>
                     <div>Splunk Core Certified User</div>
-                    <div>CompTIA Security+ (Expected 2025)</div>
                     </div>
                 <div/>
             </div>
